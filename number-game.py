@@ -14,7 +14,7 @@ while cont == 'y':
     for a in range(0,live):
         print(f'Lives :{counter}')
         guess = int(input('Guess :'))
-        counter =- 1
+        counter -= 1
         if guess == number:
             print(f'Congrats! Win!!! Correct number is: {guess}')
             break
