@@ -1,8 +1,10 @@
+# A simple number guess game
+# Do you wanna try?
+
 import random
 import os
 import time
 
-a = 0
 cont = 'y'
 while cont == 'y':
     os.system('cls')
